@@ -2,9 +2,9 @@ let mapleader = "-"
 call plug#begin()
 Plug 'google/vim-colorscheme-primary'
 Plug 'junegunn/vim-easy-align'
-Plug 'dense-analysis/ale', {'for': ['terraform', 'python', 'java', 'vim']}
+Plug 'dense-analysis/ale'
 Plug 'preservim/nerdtree', {'on': 'NERDTreeToggle'}
-Plug 'hashivim/vim-terraform', {'for': 'terraform'}
+Plug 'hashivim/vim-terraform', {'for': ['terraform']}
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'dyng/ctrlsf.vim', {'on': ['CtrlSF']}
